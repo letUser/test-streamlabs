@@ -1,0 +1,86 @@
+.header {
+    margin: 2em;
+}
+
+.title {
+    color: grey;
+    font-size: 12px;
+    margin: 0 1em 0 0;
+}
+
+.pre-table-info {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0 0 1em 0;
+}
+
+.selectedItems {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: fit-content;
+    height: 1.5em;
+}
+
+.import-tools {
+    display: flex;
+    justify-content: flex-end;
+    height: 1.5em;
+}
+
+.hor-line {
+    border: 1px solid #EBEEF5;
+    margin: 1em 0 1em 0;
+}
+
+.table-wrapper {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.no-hover:hover > td {
+    background-color: #FFF !important;
+    cursor: pointer;
+}
+
+.dnd-class {
+    cursor: move;
+    cursor: -webkit-grabbing;
+}
+
+.textarea {
+    display: inline-flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45em;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.75em;
+}
+
+.text > p {
+    margin: 1em;
+}
+
+.tools > button {
+    margin: 0.25em;
+}
+
+.tool-icon {
+    margin-right: 0.75em;
+    margin-left: 0 !important;
+}
